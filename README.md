@@ -31,7 +31,7 @@ monitoring system for car prices, especially during the COVID-19 pandemic since 
   |   |-- sns_plots.py
   |   |-- utils.py
   |-- cleaned_data
-  |   |-- Cleaned10GB.csv
+  |   |-- DownloadLink.txt
   |-- plots
   |   |-- Car_price_range_vs_price.png
   |   |-- Cities_affected_bycovid_vs_price.png
@@ -55,9 +55,13 @@ monitoring system for car prices, especially during the COVID-19 pandemic since 
   |       |-- Figure_3.png
   |       |-- Figure_4.png
   |-- raw_data
-      |-- vehicles.csv
+      |-- DownloadLink.txt
 ```
 
+
+## Download the raw and cleaned data
+1. Download raw 10GB data from the link included in /raw_data/DownloadLink.txt
+2. Download cleaned 10GB data from the link included in /cleaned_data/DownloadLink.txt
 
 ## Run the code
 1. Run the ```data_cleaning.py``` to clean the data in ```raw_data```  
